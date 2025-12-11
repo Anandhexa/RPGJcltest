@@ -38,9 +38,10 @@ end-pi;
    *INLR = *ON;
    RETURN;
  /END-FREE
-
+call 'INVENTLIB/orch' pItemID;
 // TODO: implement initialization logic here
 // For now, just mark LR on entry/exit.
 
 *inlr = *on;
+
 
